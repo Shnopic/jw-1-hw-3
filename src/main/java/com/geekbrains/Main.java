@@ -74,9 +74,9 @@ public class Main {
 
     //6
     public static void minMaxArray(){
-        int[] array = {1,2,3,-5,10};
+        int[] array = {1,2,31,-5,10};
         Arrays.sort(array);
-        System.out.println(array[0]);
-        System.out.println(array[array.length-1]);
+        System.out.println("min: " + array[0]);
+        System.out.println("max: " + array[array.length-1]);
     }
 }
